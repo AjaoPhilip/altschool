@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Media Element</title>
+    <link rel="stylesheet" href="/media.css" />
+  </head>
+  <body>
+    <div class="container">
+      <nav class="menuNav">
+        <a href="/index.html">Home</a>
+        <a href="/form.html">Application Form</a>
+        <a href="/table.html">Courses Table</a>
+        <a href="#">Media Element</a>
+      </nav>
+      <h1 class="headline">Hello, I'm Philip, a Future Cloud Engineer!</h1>
+      <h2 class="subheadline">From Digital Marketing to Cloud Engineering</h2>
+
+      <div class="picture-container">
+        <picture>
+          <img src="/images/Philip Ajao.jpeg" alt="My Pic" />
+          <!-- For desktop screens -->
+          <source
+            media="(min-width: 1024px)"
+            srcset="path/to/desktop-image.jpg"
+          />
+          <!-- For tablets -->
+          <source
+            media="(min-width: 768px)"
+            srcset="path/to/tablet-image.jpg"
+          />
+          <!-- For mobile phones -->
+          <source
+            media="(max-width: 767px)"
+            srcset="path/to/mobile-image.jpg"
+          />
+          <!-- Fallback image -->
+        </picture>
+      </div>
+
+      <div class="content">
+        <p>
+          Currently, I'm a Digital Marketing Manager with a passion for
+          technology and innovation. I'm a student at AltSchool Africa, delving
+          into the dynamic world of Cloud Engineering.
+        </p>
+
+        <video class="altschoolVideo" src="/video/Welcome to AltSchool Africa.mp4" 
+        controls
+        poster="/images/Alt School Explained.jpg">Your browser does not support the video</video>
+
+        <p>
+          Transitioning from marketing to the cloud isn't just a career change
+          for me; it's a journey towards harnessing the power of technology to
+          solve complex problems, build scalable solutions, and drive business
+          growth.
+        </p>
+
+        <audio class="ordinaryPeopleAudio" src="/audio/AltSchool Ordinary People.MP3" controls></audio>
+
+        <p>
+          My journey is fueled by a commitment to continuous learning and a
+          desire to make a significant impact in the tech industry. Join me as I
+          merge my marketing expertise with the evolving skills of a Cloud
+          Engineer!
+        </p>
+
+        <a href="https://www.linkedin.com/in/philipajao/" class="btn"
+          target="_blank">Connect with Me</a
+        >
+      </div>
+      
+    </div>
+  </body>
+</html>

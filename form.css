@@ -1,0 +1,352 @@
+#container {
+  width: 100%;
+}
+
+#column1 {
+  width: 50%;
+  float: left;
+}
+
+#column2 {
+  width: 46%;
+  float: right;
+}
+
+#column1 {
+  background-color: #fffcf7;
+}
+
+#column1 img {
+  display: block;
+  width: 65%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+}
+
+#column1 h1 {
+  @media (max-width: 1024px) color: #000812;
+  font-size: 45px;
+  line-height: auto;
+  text-align: center;
+  margin-bottom: 25px;
+  letter-spacing: -0.51px;
+  font-family: sans-serif;
+  margin-top: 0;
+}
+
+.footer {
+  text-align: center;
+}
+
+.footerSocialLinks {
+  padding-bottom: 20px;
+}
+
+.footerTel a {
+  text-decoration: none;
+  color: #000812;
+  font-family: sans-serif;
+  font-size: 12px;
+}
+
+.copyrightText p {
+  font-family: sans-serif;
+  color: #000812;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.menuNav{
+  padding-top: 20px;
+  font-family: sans-serif;
+  float: right;
+}
+
+.menuNav a{
+  padding-left: 20px;
+  text-decoration: none;
+}
+
+#column2 p {
+  float: right;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  color: black;
+  padding-right: 20px;
+}
+
+#column2 p a {
+  text-decoration: none;
+  color: blue;
+}
+
+#column2 h2 {
+  padding-top: 100px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#column2 h4 {
+  font-family: sans-serif;
+  font-size: 14px;
+  color:  #85888D;
+  font-weight: 100;
+}
+
+.appform {
+  color: #000000;
+  font-size: 14px;
+  font-family: sans-serif;
+}
+
+#fName {
+  float: left;
+  padding-right: 20px;
+}
+
+.name{
+    padding-bottom: 20px;
+}
+
+#fName input{
+    font-size: 14px;
+    height: 40px;
+    border: none;
+    width: 250px;
+    border-radius: 5px;
+    background-color: rgba(245, 245, 242, 0.493);
+    display: flex;
+    flex-grow: 1;
+    box-sizing: border-box;
+    position: relative;
+    margin-top: 10px;
+}
+
+#fName input[type="text"]:hover{
+    border: 1px solid blue;
+}
+
+#lName input{
+    font-size: 14px;
+    height: 40px;
+    border: none;
+    width: 250px;
+    border-radius: 5px;
+    background-color: rgba(245, 245, 242, 0.493);
+    box-sizing: border-box;
+    position: relative;
+    margin-top: 10px;
+}
+
+#lName input[type="text"]:hover{
+  border: 1px solid blue;
+}
+
+#gender {
+  float: left;
+  padding-right: 29px;
+}
+
+.genderAndDob{
+  padding-bottom: 20px;
+}
+
+#gender select{
+  font-size: 14px;
+    height: 40px;
+    border: none;
+    width: 250px;
+    border-radius: 5px;
+    background-color: rgba(245, 245, 242, 0.493);
+    box-sizing: border-box;
+    position: relative;
+    margin-top: 10px;
+}
+
+#gender select:hover{
+  border: 1px solid blue;
+}
+
+#dob input{
+  font-size: 14px;
+    height: 40px;
+    border: none;
+    width: 250px;
+    border-radius: 5px;
+    background-color: rgba(245, 245, 242, 0.493);
+    box-sizing: border-box;
+    position: relative;
+    margin-top: 10px;
+}
+
+#dob input[type="date"]:hover{
+  border: 1px solid blue;
+}
+
+.emailPhone{
+  padding-bottom: 20px;
+}
+
+#email {
+  float: left;
+  padding-right: 20px;
+}
+
+#email input{
+  font-size: 14px;
+    height: 40px;
+    border: none;
+    width: 250px;
+    border-radius: 5px;
+    background-color: rgba(245, 245, 242, 0.493);
+    box-sizing: border-box;
+    position: relative;
+    margin-top: 10px;
+}
+
+#email input[type="email"]:hover{
+  border: 1px solid blue;
+}
+
+#phone input{
+  font-size: 14px;
+    height: 40px;
+    border: none;
+    width: 250px;
+    border-radius: 5px;
+    background-color: rgba(245, 245, 242, 0.493);
+    box-sizing: border-box;
+    position: relative;
+    margin-top: 10px;
+}
+
+#phone input[type="tel"]:hover{
+  border: 1px solid blue;
+}
+
+.countryState{
+  padding-bottom: 20px;
+}
+
+#country {
+  float: left;
+  padding-right: 50px;
+}
+
+#country select{
+  font-size: 14px;
+    height: 40px;
+    border: none;
+    width: 250px;
+    border-radius: 5px;
+    background-color: rgba(245, 245, 242, 0.493);
+    box-sizing: border-box;
+    position: relative;
+    margin-top: 10px;
+}
+
+#country select:hover{
+  border: 1px solid blue;
+}
+
+#StateOfResidence input{
+  font-size: 14px;
+  height: 40px;
+  border: none;
+  width: 250px;
+  border-radius: 5px;
+  background-color: rgba(245, 245, 242, 0.493);
+  box-sizing: border-box;
+  position: relative;
+  margin-top: 10px;
+}
+
+#StateOfResidence input[type="address"]:hover{
+  border: 1px solid blue;
+}
+
+.hearAboutUs{
+  padding-bottom: 20px;
+}
+
+#hearAboutUs select{
+  font-size: 14px;
+  height: 40px;
+  border: none;
+  width: 500px;
+  border-radius: 5px;
+  background-color: rgba(245, 245, 242, 0.493);
+  box-sizing: border-box;
+  position: relative;
+  margin-top: 10px;
+}
+
+#hearAboutUs select:hover{
+  border: 1px solid blue;
+}
+
+.passwordAndConfirm{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#password {
+  float: left;
+  padding-right: 20px;
+}
+
+#password input{
+  font-size: 14px;
+  height: 40px;
+  border: none;
+  width: 250px;
+  border-radius: 5px;
+  background-color: rgba(245, 245, 242, 0.493);
+  box-sizing: border-box;
+  position: relative;
+  margin-top: 10px;
+}
+
+#password input[type="password"]:hover{
+  border: 1px solid blue;
+}
+
+#confirmPassword input{
+  font-size: 14px;
+  height: 40px;
+  border: none;
+  width: 250px;
+  border-radius: 5px;
+  background-color: rgba(245, 245, 242, 0.493);
+  box-sizing: border-box;
+  position: relative;
+  margin-top: 10px;
+}
+
+#confirmPassword input[type="password"]:hover{
+  border: 1px solid blue;
+}
+
+.submitButton{
+  margin-bottom: 50px;
+}
+.submitButton input{
+  color: white;
+  font-size: 14px;
+  height: 45px;
+  border: none;
+  width: 500px;
+  border-radius: 5px;
+  background-color: rgb(106, 111, 245);
+}
+
+.termsOfUse{
+  text-decoration: none;
+  color: blue;
+}
+
+.privacyPolicy{
+  text-decoration: none;
+  color: blue;
+}

@@ -1,0 +1,46 @@
+.outline{
+    background-color: #fffcf7;
+}
+
+.content{
+    max-width: 700px;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+.heading{
+    font-family: sans-serif;
+    font-size: 45px;
+    font-weight: 100;
+    color: #1019b4;
+}
+
+.menuNav{
+    padding-bottom: 30px;
+    font-family: sans-serif;
+}
+
+.menuNav a{
+    text-decoration: none;
+    padding-left: 20px;
+}
+#table, th, td{
+    border: 1px solid rgb(133, 133, 182);
+}
+
+#table th{
+    font-family: sans-serif;
+    font-size: 25px;
+}
+
+#table td{
+    font-family: sans-serif;
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+}
+
+#table{
+    
+}
+
